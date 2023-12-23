@@ -1,0 +1,3 @@
+Ejecutar docker compose de base de datos:
+
+docker-compose -f docker-compose-DB.yml up -d

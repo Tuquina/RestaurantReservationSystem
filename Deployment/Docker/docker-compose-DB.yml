@@ -1,0 +1,15 @@
+version: '3'
+services:
+  RestaurantReservationDB:
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: 12345678
+      MYSQL_DATABASE: RestaurantReservationSystem
+      MYSQL_USER: app_admin
+      MYSQL_PASSWORD: 12345678
+    ports:
+      - "3306:3306"
+    volumes:
+      - F:/MySQL/Data:/var/lib/mysql
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
