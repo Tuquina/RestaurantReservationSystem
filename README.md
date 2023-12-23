@@ -10,7 +10,7 @@ Este proyecto representa el backend del Sistema de Reservas de Restaurantes (SRR
 MySQL: Como sistema de gestión de bases de datos.
 Swagger: Para generar una interfaz de usuario interactiva que documente y permita la interacción con la API.
 
-#Arquitectura del Proyecto
+# Arquitectura del Proyecto
 El proyecto sigue una estructura multicapa que facilita la mantenibilidad y escalabilidad:
 
 API Layer: Gestiona las solicitudes HTTP y las dirige a los servicios correspondientes.
